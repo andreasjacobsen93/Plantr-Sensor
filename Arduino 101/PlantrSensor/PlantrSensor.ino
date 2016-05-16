@@ -284,7 +284,7 @@ void writeSensorOutput(int in)
 
 void shiftArray(int in) 
 {
-  for (int i = 72; i > 0; i--)
+  for (int i = 71; i > 0; i--)
   {
     outputArray[i] = outputArray[i-1];
   }
